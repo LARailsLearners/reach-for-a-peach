@@ -14,6 +14,49 @@
  *= require_self
  */
 
+body {
+  background: rgba(145, 134, 71, .5);
+}
+.container {
+  background-color: #afeeee;
+  text-align:center;
+}
+
+
 h1#peach_title {
   color: peach;
 }
+
+#signin_button {
+  margin-left: auto;
+  margin-right: auto;
+  background: image-url('peach.png');
+  background-repeat: no-repeat;
+  text-align:center;
+  width: 200px;
+  height: 200px;
+}
+
+#signup_button {
+  background: image-url('peach.png');
+  background-repeat: no-repeat;
+  text-align:center;
+  width: 200px;
+  height: 200px;
+}
+
+#new_peach_button {
+  background: image-url('peach.png');
+  background-repeat: no-repeat;
+  text-align:center;
+  width: 200px;
+  height: 200px;
+}
+
+#directions {
+  background-repeat: no-repeat;
+  text-align:center;
+  width: 200px;
+  height: 200px;
+}
+

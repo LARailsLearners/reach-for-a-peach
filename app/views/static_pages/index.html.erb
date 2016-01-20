@@ -1,4 +1,47 @@
-<h1>reach for a peach</h1>
-<h3>Sign In</h3>
-<%= button_to 'Create a Peach', new_peach_path, method: :get %>
-<h3>Sign Up</h3>
+<div class="row" style="text-align:center;margin-left:auto; margin-right:auto;">
+  <div class="four columns">
+    <div id="signin_button">
+      <%= button_to 'Sign In', new_peach_path, method: :get, disabled: :true %>
+    </div>
+  </div>
+
+  <div class="four columns">
+    <div id="new_peach_button">
+      <%= button_to 'Get Started', new_peach_path, method: :get %>
+    </div>
+  </div>
+
+  <div class="four columns">
+    <div id="signup_button">
+      <%= button_to 'Signup', new_peach_path, method: :get, disabled: :true %>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="four columns">
+    <div id="signin_button">
+      <%= button_to 'Become a Chess master', new_peach_path, method: :get, disabled: :true %>
+    </div>
+  </div>
+
+  <div class="four columns">
+    <div id="directions">
+      <p style="font-size: 100%;"><strong>Reach your goals &<br />
+      Track your progress</strong></p>
+    <ul style="line-height:2rem; text-align:left; padding-left: 20px">
+      <li>Create a goal</li>
+      <li>Set a deadline</li>
+      <li>Organize your goals</li>
+      <li>Track your progress</li>
+    </ul>
+  </div>
+  </div>
+
+  <div class="four columns">
+    <div id="signup_button">
+      <%= button_to "Train for Triathlon", new_peach_path, method: :get, disabled: :true, class: "" %>
+    </div>
+  </div>
+</div>
+
